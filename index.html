@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victorade — Dev</title>
+  <meta name="description" content="Modern developer portfolio showcasing projects, skills, and contact info." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark" aria-hidden="true">👑</span>
+        <span class="brand-text">Victor&nbsp;Adeleke</span>
+      </a>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle color theme"></button>
+        <a class="btn primary" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container grid-2">
+        <div class="stack gap-16 reveal">
+          <p class="eyebrow">Software Engineer • Full‑Stack</p>
+          <h1 class="display">I build fast, elegant, human‑centered web apps.</h1>
+          <p class="lead">I’m <strong>Victor👑</strong>, a developer focused on clean UX, robust architecture, and measurable impact. I turn ideas into production-ready products.</p>
+          <div class="row gap-12">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="assets/YourName_CV.pdf" download>Download CV</a>
+          </div>
+          <div class="row gap-24 meta">
+            <div class="chip">JavaScript</div>
+            <div class="chip">React</div>
+            <div class="chip">Node.js</div>
+            <div class="chip">TypeScript</div>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1" aria-hidden="true">
+          <div class="card">
+            <div class="code-window">
+<pre><code>// quick snapshot
+const stack = ["React", "Node", "Vite", "Tailwind"];
+const currentlyBuilding = "SaaS dashboard for analytics";
+function sayHi(name) {
+  return `Hi ${name}, let's build something great.`;
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Featured Projects</h2>
+          <p>Production-quality work with real-world constraints, performance budgets, and delightful details.</p>
+        </div>
+        <div class="grid-3 cards">
+          <article class="card project reveal">
+            <div class="card-media skeleton"></div>
+            <div class="card-body">
+              <h3>SaaS Analytics Dashboard</h3>
+              <p>Role-based dashboard with charts, theming, and live data. Built with React + Node + PostgreSQL.</p>
+              <div class="tags">
+                <span>React</span><span>Node</span><span>Postgres</span>
+              </div>
+              <div class="actions">
+                <a href="#" class="btn small">Live</a>
+                <a href="#" class="btn small ghost">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project reveal delay-1">
+            <div class="card-media skeleton"></div>
+            <div class="card-body">
+              <h3>E‑commerce Storefront</h3>
+              <p>Headless commerce with product search, cart, and checkout. Lighthouse 95+ scores.</p>
+              <div class="tags">
+                <span>Next.js</span><span>Stripe</span><span>Algolia</span>
+              </div>
+              <div class="actions">
+                <a href="#" class="btn small">Live</a>
+                <a href="#" class="btn small ghost">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project reveal delay-2">
+            <div class="card-media skeleton"></div>
+            <div class="card-body">
+              <h3>Realtime Collaboration App</h3>
+              <p>Documents with multiplayer cursors, offline support, and CRDT syncing.</p>
+              <div class="tags">
+                <span>TypeScript</span><span>WebSockets</span><span>Vitest</span>
+              </div>
+              <div class="actions">
+                <a href="#" class="btn small">Live</a>
+                <a href="#" class="btn small ghost">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p>Comfort across the stack with a bias toward shipping.</p>
+        </div>
+        <div class="grid-4 skills">
+          <div class="card reveal"><h4>Front‑End</h4><p>React, TypeScript, Vite, Next.js, Redux, CSS‑in‑JS, Tailwind.</p></div>
+          <div class="card reveal delay-1"><h4>Back‑End</h4><p>Node.js, Express, REST, GraphQL, PostgreSQL, Prisma.</p></div>
+          <div class="card reveal delay-2"><h4>DevOps</h4><p>Docker, CI/CD, Vercel, Netlify, Nginx, Cloudflare.</p></div>
+          <div class="card reveal delay-3"><h4>Quality</h4><p>Testing, accessibility, performance budgets, observability.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Experience</h2>
+          <p>Selected roles and results.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="time">2024 — Present</div>
+            <div class="content">
+              <h4>Senior Frontend Engineer • Crown Technologies</h4>
+              <p>Led migration to React + Vite, cut bundle size by 48%, improved Core Web Vitals into the green.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal delay-1">
+            <div class="time">2024</div>
+            <div class="content">
+              <h4>Full‑Stack Developer • Startup</h4>
+              <p>Shipped subscription SaaS to 2k+ users; implemented role-based auth and Stripe billing.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal delay-2">
+            <div class="time">2023 — 2024</div>
+            <div class="content">
+              <h4>Frontend Developer • Agency</h4>
+              <p>Delivered 10+ sites, established component library, reduced development time by ~35%.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container narrow reveal">
+        <div class="section-head">
+          <h2>Let’s build something</h2>
+          <p>Have a project in mind? I’d love to hear about it.</p>
+        </div>
+        <form class="contact" onsubmit="return handleContact(event)">
+          <div class="grid-2">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="row gap-12">
+            <button type="submit" class="btn primary">Send Message</button>
+            <a class="btn ghost" href="mailto:victoradeleke55@gmail.com">Email Me</a>
+          </div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Victor Adeleke. All rights reserved.</p>
+      <div class="row gap-16">
+        <a href= "https://github.com/Yoofam">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12.4c0 5.26 3.41 9.71 8.15 11.29.6.11.82-.27.82-.58 0-.28-.01-1.03-.02-2.02-3.32.74-4.02-1.64-4.02-1.64-.55-1.43-1.34-1.8-1.34-1.8-1.09-.76.08-.75.08-.75 1.2.09 1.83 1.26 1.83 1.26 1.07 1.86 2.8 1.32 3.48 1.01.11-.8.42-1.32.76-1.63-2.65-.31-5.44-1.34-5.44-5.97 0-1.32.47-2.4 1.24-3.25-.12-.31-.54-1.57.12-3.27 0 0 1.01-.33 3.3 1.24a11.3 11.3 0 0 1 6 0c2.29-1.57 3.3-1.24 3.3-1.24.66 1.7.24 2.96.12 3.27.77.85 1.24 1.93 1.24 3.25 0 4.64-2.79 5.65-5.45 5.96.43.37.81 1.1.81 2.22 0 1.6-.01 2.88-.01 3.27 0 .31.22.69.83.57A11.52 11.52 0 0 0 23.5 12.4 11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/victor-adeleke-86700a374">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.56c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.65H9.35V9h3.4v1.56h.05c.47-.9 1.62-1.85 3.34-1.85 3.58 0 4.24 2.36 4.24 5.42v6.32ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9H7.12v11.45Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
